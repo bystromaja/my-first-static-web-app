@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BETILLYS kennel och hemsida!">
+    <meta name="author" content="Maja Byström">
+    <title>BETILLYS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="grid-container">
+        <header>
+            <span class="logo">BETILLYS</span>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Hem</a></li>
+                    <li><a href="sida2.html">Om oss</a></li>
+                    <li><a href="sida3.html">Mina hundar</a></li>
+                    <li><a href="sida4.html">Valpar</a></li>
+                    <li><a href="extra.html">Kontakt</a></li>
+                </ul>
+            </nav>
+        </header>
+
+		<main class="bg-kontakt">
+   			<h1>KONTAKT</h1>
+		</main>
+
+		<section class="kontakt-sektion">
+    		<div class="kontakt-container">
+        		<h2>KONTAKTA OSS</h2>
+        		<p>Har du frågor om våra hundar eller är intresserad av en valp? Skicka ett meddelande!</p>
+        
+        	<form action="mailto:din-epost@exempel.se" method="post" enctype="text/plain">
+            <div class="form-grupp">
+                <label for="namn">Namn:</label>
+                <input type="text" id="namn" name="namn" required placeholder="Ditt fullständiga namn">
+            </div>
+
+            <div class="form-grupp">
+                <label for="email">E-post:</label>
+                <input type="email" id="email" name="email" required placeholder="Din e-postadress">
+            </div>
+
+            <div class="form-grupp">
+                <label for="amne">Ärende:</label>
+                <select id="amne" name="amne">
+                    <option value="valp">Intresse av valp</option>
+                    <option value="foder">Frågor om foder/skötsel</option>
+                    <option value="ovrigt">Övrigt</option>
+                </select>
+            </div>
+
+            <div class="form-grupp">
+                <label for="meddelande">Meddelande:</label>
+                <textarea id="meddelande" name="meddelande" rows="5" required placeholder="Skriv ditt meddelande här..."></textarea>
+            </div>
+
+            <button type="submit" class="skicka-btn">SKICKA MEDDELANDE</button>
+       		</form>
+   	 		</div>
+		</section>
+
+		<section class="tabell-sektion">
+			<h2>HÄLSORESULTAT & FAKTA</h2>
+			<div class="tabell-container">
+				<table>
+					<thead>
+						<tr>
+							<th>Hundens Namn</th>
+							<th>Ras</th>
+							<th>HD (Höfter)</th>
+							<th>ED (Armbågar)</th>
+							<th>Ögonlysning</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Pepsi</td>
+							<td>Berner Sennen</td>
+							<td>Grad A</td>
+							<td>0 (UA)</td>
+							<td>Utan anmärkning</td>
+						</tr>
+						<tr>
+							<td>Betilly's Lotus</td>
+							<td>Berner Sennen</td>
+							<td>Grad A</td>
+							<td>0 (UA)</td>
+							<td>Utan anmärkning</td>
+						</tr>
+						<tr>
+							<td>Cickan</td>
+							<td>Västgötaspets</td>
+							<td>Grad A</td>
+							<td>0 (UA)</td>
+							<td>Utan anmärkning</td>
+						</tr>
+						<tr>
+							<td>Skogsbygdens Viking</td>
+							<td>Västgötaspets</td>
+							<td>Grad B</td>
+							<td>0 (UA)</td>
+							<td>Utan anmärkning</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</section>
+
+        <footer>
+            <p>&copy; 2026 Utvecklad av Maja Byström</p>
+
+			<nav>
+                <ul>
+                    <li><a href="index.html">Hem</a></li>
+                    <li><a href="sida2.html">Om oss</a></li>
+                    <li><a href="sida3.html">Mina hundar</a></li>
+                    <li><a href="sida4.html">Valpar</a></li>
+                    <li><a href="extra.html">Kontakt</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </div>
+
+</body>
+</html>
